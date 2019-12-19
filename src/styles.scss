@@ -1,1 +1,16 @@
+// Imports functions, variables, and mixins that are needed by other Bootstrap files
+/* https://www.amadousall.com/the-good-parts-of-bootstrap-4-you-are-missing-in-your-angular-material-projects/#bootstrapgrid */
+@import "variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/utilities"; // add css utilities
+@import "reset";
+
 /* You can add global styles to this file, and also import other style files */
+/*
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*/
